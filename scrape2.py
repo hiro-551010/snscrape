@@ -18,9 +18,7 @@ for i,tweet in enumerate(sntwitter.TwitterUserScraper("matsu_bouzu", False).get_
         "content": tweet.content, "url": tweet.url, "username": tweet.user.username,
         "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount})
 
-f = open("tweets.csv", "w")
-j = json.dumps(tweets_list, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
-f.write(j)
-f.close()
-# df = pd.DataFrame(tweets_list)
-# df.to_csv("tweets.csv")
+
+df = pd.DataFrame(tweets_list)
+df["content"] = df["content"].replace('\n', '', regex=True)
+df.to_csv("tweets2.csv")
