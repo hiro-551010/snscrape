@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border-collapse: collapse; border: 1px solid black">
+        {% for d in df %}
+            {{d}}
+            <br>
+        {% endfor %}
+    </div>
+    <div>
+        <a href="{% url 'twitter:search' %}">キーワード検索</a>
+        <a href="{% url 'twitter:home' %}">人物検索</a>
+    </div>
+    
+</body>
+</html>
