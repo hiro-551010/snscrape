@@ -14,7 +14,6 @@ def index(request):
         if form.is_valid():
             username = request.POST.get("username")
             person.main(username)
-            return render(request, "tweet/tweet.html")
 
     return render(request, "tweet/index.html", context)
 
@@ -28,7 +27,6 @@ def search(request):
         if form.is_valid():
             keywords = request.POST.get("keyword")
             keyword.main(keywords)
-            return render(request, "tweet/tweet.html")
 
     return render(request, "tweet/search.html", context)
 
