@@ -145,6 +145,5 @@ if not DEBUG:
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
     django_heroku.settings(locals())
 
-    
-# SECRET_KEY = 'django-insecure-4qrvv+6nwb60_=hndzi3h19^4slv##&0#dl9c4^-jl(-(ekto9'
+
 
