@@ -4,10 +4,11 @@ import snscrape.modules.twitter as sntwitter
 import os 
 
 tweets_list = []
+count = 1000
 
 def person(username):
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
-        if i>100:
+        if i>count:
             break
         tweets_list.append({
             "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.username,

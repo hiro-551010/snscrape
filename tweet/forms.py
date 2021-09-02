@@ -10,4 +10,4 @@ class PersonForm(forms.ModelForm):
 class KeywordForm(forms.ModelForm):
     class Meta:
         model = KeywordModel
-        fields = ["keyword"]
+        fields = ["keyword", "since", "until"]

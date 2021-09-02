@@ -26,7 +26,9 @@ def search(request):
         form = KeywordForm(request.POST)
         if form.is_valid():
             keywords = request.POST.get("keyword")
-            keyword.main(keywords)
+            since = request.POST.get("since")
+            until = request.POST.get("until")
+            keyword.main(keywords, since, until)
 
     return render(request, "tweet/search.html", context)
 

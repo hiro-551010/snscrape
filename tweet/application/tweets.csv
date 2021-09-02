@@ -1,10 +1,259 @@
-,date,content,url,username,reply_count,like_count,retweet_count
-0,2021-07-08 06:38:25+00:00,FilezillaのようなFTPの動きをターミナルで行う on #Qiita https://t.co/MQm7S9V51G,https://twitter.com/6yMwHw49meMmFxm/status/1413024654457860096,6yMwHw49meMmFxm,0,0,0
-1,2021-05-30 08:00:21+00:00,開発フローのアプリなんかないかな。。。,https://twitter.com/6yMwHw49meMmFxm/status/1398912149494239234,6yMwHw49meMmFxm,0,0,0
-2,2021-05-16 10:14:39+00:00,qiitaの新しい記事です。sqliteの便利さが少しだけ上がると思います。#プログラミング初学者  #Python  #Django https://t.co/Gf25NAg0te,https://twitter.com/6yMwHw49meMmFxm/status/1393872516662267906,6yMwHw49meMmFxm,0,4,2
-3,2021-05-16 10:11:39+00:00,MySQLで開発する前にsqliteで軽く検証してみる [Python] on @Qiita https://t.co/Gf25NAg0te,https://twitter.com/6yMwHw49meMmFxm/status/1393871761968537600,6yMwHw49meMmFxm,0,0,0
-4,2021-05-08 13:21:34+00:00,DjangoでviewsからHTML(templates)への値の渡し方 [Python] on @Qiita https://t.co/4wTnAWIccw,https://twitter.com/6yMwHw49meMmFxm/status/1391020454807179266,6yMwHw49meMmFxm,0,0,0
-5,2021-04-07 22:48:03+00:00,findyでgithub診断してもらったけど、こんなもらえるのかな https://t.co/xsoEsNpDTc,https://twitter.com/6yMwHw49meMmFxm/status/1379928990429798400,6yMwHw49meMmFxm,0,1,0
-6,2021-04-04 17:35:38+00:00,作ったものをGitHubに上げるのってどうやるんだろう。ファイルが多すぎてドラックアンドドロップじゃ落とせん。ターミナル先生の出番か,https://twitter.com/6yMwHw49meMmFxm/status/1378763203966984197,6yMwHw49meMmFxm,0,0,0
-7,2021-02-27 16:47:40+00:00,今はudemyのDjango講座やってます。だけど講師の方が、星4の評価しかしてないからって質問に対する応対が雑になるの良くないと思う。こっちはエラーでたら、直そうと一生懸命なのに#プログラミング初心者と繋がりたい #プログラミング初学者,https://twitter.com/6yMwHw49meMmFxm/status/1365705169959145473,6yMwHw49meMmFxm,0,12,0
-8,2021-02-27 16:44:10+00:00,Macを買ったは良いがExcelが無くて、pythonのスクレイピングどうやってやろうと思ってたけど、こんな良記事がありました！【もう迷わない】Pythonでスプレッドシートに読み書きする初期設定まとめ｜たぬハック https://t.co/m269WeLO0Y#プログラミング初心者と繋がりたい #プログラミング初心者,https://twitter.com/6yMwHw49meMmFxm/status/1365704286135410691,6yMwHw49meMmFxm,0,13,0
+,tweet_date,tweet_content,tweet_url,tweet_user_name,tweet_reply_count,tweet_like_count,tweet_retweet_count
+0,2021-08-31 23:59:55+00:00,"”中田翔問題”で日本ハム球団社長がウェブ謝罪も「何を今更」「遅すぎだろ」「記者会見しろよ！」と厳しい声 #SmartNews 
+そもそもが何で慌てて移籍させたのか？シーズンオフまで謹慎して、それから移籍すれば、何の問題も無い。結果、中田本人も損害が大きくなった。 https://t.co/KU4JbBUcUg",https://twitter.com/voxy1231/status/1432855704813981698,voxy1231,0,0,0
+1,2021-08-31 23:59:54+00:00,日ハムのドラ1予想(高校生右腕編),https://twitter.com/kouheyani16/status/1432855698770042881,kouheyani16,0,0,0
+2,2021-08-31 23:57:32+00:00,"円陣では差別よりも後輩をフォローせずに冷たい空気になったのが問題かなと思う。あれだとかわいそすぎるわ。
+
+日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める（スポニチアネックス） https://t.co/mk8GmOsHDH",https://twitter.com/haresora4126/status/1432855102512009216,haresora4126,0,0,0
+3,2021-08-31 23:55:24+00:00,"12球団で最悪な球団は楽天だと思ったが、日ハムになったな、私のなかでは...
+
+日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める(スポニチアネックス)
+#Yahooニュース
+https://t.co/iUEBg2KFz4",https://twitter.com/uchuta_m/status/1432854566186278914,uchuta_m,0,1,0
+4,2021-08-31 23:54:58+00:00,"元日本ハム大嶋匠の前代未聞の挑戦。７年間「野球人になれた」実感は一度もなかった｜集英社のスポーツ総合雑誌 スポルティーバ 公式サイト web Sportiva https://t.co/B3NXRixzQK
+生年月日が全く一緒でちょくちょく成績見てたけど、やっぱり印象は紅白戦の初打席初ホームラン(* 'ᵕ' )",https://twitter.com/shin36kugimiya/status/1432854459370008581,shin36kugimiya,0,0,0
+5,2021-08-31 23:54:27+00:00,"日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める
+https://t.co/hU5jba13R1 英語の諺だと It's no use crying over spilt milk. がしっくり来る悪すぎる実例だ。#lovefighters",https://twitter.com/hfsfansince2005/status/1432854329522679810,hfsfansince2005,0,0,0
+6,2021-08-31 23:53:26+00:00,"（スポ連）
+日南学園高校からプロ入り
+交渉中携帯電話の着信音に激怒
+2010年西武からオリックスへ
+2014年日本ハムで現役引退　→赤田将吾",https://twitter.com/qma_pr_bot/status/1432854069865971721,qma_pr_bot,0,0,0
+7,2021-08-31 23:53:16+00:00,日本ハム、人種差別発言動画で謝罪文公表　中田翔問題も：朝日新聞デジタル https://t.co/b0RzlCDqb9,https://twitter.com/forcejd/status/1432854031790051330,forcejd,0,0,0
+8,2021-08-31 23:52:59+00:00,"@gyakuryu_niki 杉谷...プロ野球...日ハム...
+うっ...頭が...",https://twitter.com/gMC9bkDUS5iUZQO/status/1432853959593451521,gMC9bkDUS5iUZQO,1,1,0
+9,2021-08-31 23:52:51+00:00,"やっていることが完全に後手後手に回ってる気がする
+
+日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める - スポニチ Sponichi Annex 野球 https://t.co/I54P1dffAs",https://twitter.com/consakeisuke/status/1432853923862175748,consakeisuke,0,1,0
+10,2021-08-31 23:51:05+00:00,日本ハム・野村10戦連続安打　プロ2試合目の4番「頭の中を整理していいパフォーマンスを」 https://t.co/25BYLBcOEu,https://twitter.com/ayu2nico2/status/1432853481337933827,ayu2nico2,0,2,0
+11,2021-08-31 23:50:36+00:00,"""この度は、チーム成績も低迷する中、シーズン中にもかかわらず、"" / チームの成績が高かろうが低かろうが、シーズン中だろうが外だろうが、暴力も差別もダメなの。そこを冒頭に持ってくるな。 / “ファンの皆様へ｜北海道日本ハムファイターズ” https://t.co/2cnmosbKoW",https://twitter.com/smokeymonkey/status/1432853359984185344,smokeymonkey,1,6,1
+12,2021-08-31 23:50:09+00:00,"【日本ハム 中田翔選手移籍前にファンに謝罪の機会設けず陳謝 】
+
+日ハムも巨人も
+中田翔選手の暴力事件を不問としたが
+世間はそうは見ない
+
+本人に謝罪の機会を与えず
+一生「暴力選手」のレッテルから
+逃れられなくなります https://t.co/zAZjVxTY18",https://twitter.com/KHDiet1/status/1432853247174184964,KHDiet1,0,0,0
+13,2021-08-31 23:48:54+00:00,"今気づいたんだが、日ハム×JR北のモバイルスタンプラリー
+小樽の部分が中田からBBに差し替えられてる。 https://t.co/dU9SGLhhOx",https://twitter.com/meltwater88/status/1432852931913523203,meltwater88,0,0,0
+14,2021-08-31 23:48:11+00:00,"【オリックス】“天敵”日本ハム上沢直之に７連敗　最下位に痛い黒星 
+https://t.co/6ZG4LTDKYC
+
+来田が3塁塁審白井に殴られる1秒前って感じの写真構図w",https://twitter.com/fiftheel_neo/status/1432852749540986880,fiftheel_neo,0,1,0
+15,2021-08-31 23:47:10+00:00,"問題発生時の対応のダメな例。近年のファンサービスのおかしな方向性、プレーの質低下による成績低迷も企業としての軸がずれてきているからだろう。もうファンクラブの更新は止める。組織をどう立て直してゆくのか。
+
+中田退団「会見開くべきだった」　日ハム球団社長　謝罪文 https://t.co/fKTBFij77K",https://twitter.com/hhisakura/status/1432852493885607941,hhisakura,0,0,0
+16,2021-08-31 23:46:24+00:00,上沢には確かに苦手意識は以前あったが、最近勝ってると思ってた。ほとんど札幌ドームだから印象薄いのかな🥺 #Bs2021【オリックス】“天敵”日本ハム上沢直之に７連敗　最下位に痛い黒星（スポーツ報知） - Yahoo!ニュース https://t.co/VxQleB8g1W,https://twitter.com/idoling8862/status/1432852301631221773,idoling8862,0,0,0
+17,2021-08-31 23:45:55+00:00,"おはようございます！
+最強決定戦日ハム純正2日目
+10勝10敗
+29勝11敗でだいぶ落ちました。∑(￣Д￣;)
+なのでスピリッツを下げてコンボを上げるオーダーに変えました。
+後は運試し！祈るしかない！
+ #プロスピA 
+ #日ハム純正 
+ #最強決定戦 https://t.co/lnGcMZtoHb",https://twitter.com/yuya5Y/status/1432852178687774728,yuya5Y,0,2,0
+18,2021-08-31 23:45:12+00:00,"檻　15試合　残り10試合(札ド 5試合) 
+鴎　12試合　残り13試合(札ド 6試合) 
+楽　18試合　残り7試合(札ド 3試合)   
+鷹　17試合　残り8試合(札ド 4試合)   
+西　14試合　残り11試合(札ド 5試合)  
+優勝争い、最下位争いを占うであろう残りの対日ハム試合数
+#01karat #100BASEBALL #lovefighters",https://twitter.com/tttkkk4456/status/1432852000807415809,tttkkk4456,0,1,0
+19,2021-08-31 23:44:24+00:00,"プロ野球、補強期間終了　トレード7件19人支配下　ロッテ・小窪、ヤクルト・ケリン、日本ハム・宮田獲得(スポニチアネックス)
+#Yahooニュース #千葉ロッテ #ヤクルト
+#日本ハム
+https://t.co/rgrAvfmNNJ",https://twitter.com/gasun51/status/1432851798490902529,gasun51,0,0,0
+20,2021-08-31 23:44:16+00:00,@mainichihamhoo 日ハム貯金いつ開封するか決めてないですけどかなりの額になりそう…笑,https://twitter.com/furyafurya17/status/1432851766425489409,furyafurya17,0,1,0
+21,2021-08-31 23:43:57+00:00,"日ハムの糸井さんを継承しがたいので
+糸井さん2体持ちすることを決めた😚👌🏻 https://t.co/c4gAVMqbd0",https://twitter.com/H3epXmtTXHsWxUF/status/1432851686469500928,H3epXmtTXHsWxUF,0,0,0
+22,2021-08-31 23:43:46+00:00,今日・明日はナイター⚾　再来年からは日ハム⚾は北広島に移転　どうなる事やら・・　バイトの大学生警備員曰く「オレそのころには大学卒業😊」と他人事❓,https://twitter.com/141011_hana/status/1432851638587322369,141011_hana,0,1,0
+23,2021-08-31 23:43:20+00:00,"オリックスバファローズ
+          ↑６ゲーム差↑
+福岡ソフトバンクホークス
+          ↓６ゲーム差↓
+北海道日本ハムファイターズ
+
+ #sbhawks  #数字上はどちらに到達するも五分五分",https://twitter.com/hakatahawks81/status/1432851529988378637,hakatahawks81,1,2,1
+24,2021-08-31 23:43:00+00:00,"@31244yuu 席がバックネット裏なのも、捕手愛を感じます😍😍
+カメラ壊れちゃいましたか😱😱
+関係ないですけど、日ハムにはバズーカ女子が多い気がします😎😎",https://twitter.com/wanko2012/status/1432851447515795463,wanko2012,1,1,0
+25,2021-08-31 23:41:59+00:00,中田退団「会見開くべきだった」　日ハム球団社長　謝罪文：北海道新聞 どうしん電子版 https://t.co/RbVGwniDXQ,https://twitter.com/AKI43054757/status/1432851190702743553,AKI43054757,0,1,0
+26,2021-08-31 23:41:55+00:00,"心も空もどんよりしてるけど、これを糧に今日１日頑張る💪
+
+日本ハム３連勝ヒーローは「おとめ座のＯ型、木村文紀です」！！西武から移籍コンビ・佐藤も先制打 - サンスポ https://t.co/r2WQoSrIHt @SANSPOCOMから",https://twitter.com/seibulions_1979/status/1432851175078961153,seibulions_1979,0,2,0
+27,2021-08-31 23:41:31+00:00,育成の宮田　支配下契約　日ハム：北海道新聞 どうしん電子版 https://t.co/fOhphTszcb,https://twitter.com/AKI43054757/status/1432851073870426117,AKI43054757,0,0,0
+28,2021-08-31 23:40:56+00:00,日ハム　批判受け危機感　暴力・差別　説明の遅れ認める：北海道新聞 どうしん電子版 https://t.co/HLn70CQK5F,https://twitter.com/AKI43054757/status/1432850924217585665,AKI43054757,0,2,0
+29,2021-08-31 23:40:46+00:00,"「これまで後半戦に前半戦より勝てたシーズンがない。尻上がりで、残り全部勝つ気持ちでいく」と宣言した。
+
+日本ハム・上沢　首位オリックスに今季最多135球!志願の7回10K1失点　「残り全部勝つ気持ちで」― スポニチ Sponichi Annex 野球 https://t.co/a8uPpgDZwB",https://twitter.com/_nuidayo_/status/1432850882282934278,_nuidayo_,0,0,0
+30,2021-08-31 23:40:34+00:00,来季は日本ハムと杉浦の応援よろしくお願いします,https://twitter.com/SUGIURA__BOT/status/1432850835520643081,SUGIURA__BOT,0,0,0
+31,2021-08-31 23:40:29+00:00,おきたらゆちゃ日ハムきてるなんて,https://twitter.com/mamita_9754/status/1432850813311864834,mamita_9754,0,0,0
+32,2021-08-31 23:40:11+00:00,日ハムが謝罪文公開　会見なし　ファン置き去り　花城潤　日ハム担当キャップ：北海道新聞 どうしん電子版 https://t.co/zCKTWYgcPz,https://twitter.com/AKI43054757/status/1432850737789239297,AKI43054757,0,1,0
+33,2021-08-31 23:40:08+00:00,日本ハム・上沢　首位オリックスに今季最多135球!志願の7回10K1失点　「残り全部勝つ気持ちで」 https://t.co/VbzFNh5nEf #スマートニュース　栗山のせいで、先発みんなリリーフ信用してないw,https://twitter.com/reonarudokuma/status/1432850725843865610,reonarudokuma,0,0,0
+34,2021-08-31 23:39:59+00:00,"危機管理意識、法令遵守意識の欠如。
+
+日ハムの川村球団社長が中田翔の暴力事件と4月の人種差別問題についてホームページ上で謝罪した。
+
+HPを通じた一方的な声明で済むと思っていた能天気ぶり。
+
+取材に渋々応じたものの、トップの責任感の希薄さに唖然とする。
+
+貧すれば鈍する。
+
+#ファイターズ https://t.co/zz9gJqWDZU",https://twitter.com/borntolovekenji/status/1432850687994392576,borntolovekenji,0,6,0
+35,2021-08-31 23:39:41+00:00,"日ハム上沢直之、伊藤に並ぶ8勝目 7回135球1失点の力投  AND https://t.co/1lCf9dyvGu
+https://t.co/wabl8XWOKW",https://twitter.com/2ch_yakyu/status/1432850609506381828,2ch_yakyu,0,0,0
+36,2021-08-31 23:39:33+00:00,"このタイミングでメディアの発信は残念
+中田翔 選手が問題を起こした際には
+報道規制があったかのようにダンマリ
+本人・日ハム・NPBの対応を問う声さえなかったのに…　北海道気質なんですかね https://t.co/UtdiExoBX7",https://twitter.com/est_kaz96/status/1432850576262320134,est_kaz96,0,0,0
+37,2021-08-31 23:38:47+00:00,"@fkLUxBAkRLYr2Jt おはよう！
+最近日ハム強くて羨ましい",https://twitter.com/Sm_46r/status/1432850385937461255,Sm_46r,1,1,0
+38,2021-08-31 23:38:12+00:00,昨日活躍した日ハムの木村くん、同年代なのね。誕生日も2日違い,https://twitter.com/yosayosalibe/status/1432850238004346880,yosayosalibe,0,0,0
+39,2021-08-31 23:36:59+00:00,"▶︎＜#ファイターズＥＹＥ＞大宮龍男　中田問題　球団こそけじめを
+https://t.co/SyVQPpcExb
+どうしん電子版
+#ファイターズ #日本ハム #日ハム",https://twitter.com/doushinhoudouc/status/1432849930087919617,doushinhoudouc,0,2,1
+40,2021-08-31 23:36:43+00:00,"▶︎中田退団「会見開くべきだった」　日ハム球団社長謝罪文
+https://t.co/Nk5t7O0zZL
+▶︎日ハム　批判受け危機感　暴力・差別　説明の遅れ認める
+https://t.co/Tk3Mu0wrt2
+▶︎ファン置き去り　花城潤　日ハム担当キャップ
+https://t.co/sUboSnf5tq
+どうしん電子版
+#ファイターズ #日本ハム #日ハム",https://twitter.com/doushinhoudouc/status/1432849864128303105,doushinhoudouc,0,5,2
+41,2021-08-31 23:35:52+00:00,"今季はイースタン・リーグで打率2割7分7厘、2本塁打8打点。左右の打席で成績差を減らすように、西川や松本剛ら1軍経験ある選手に貪欲に話を聞いて吸収してきた。
+
+日本ハム宮田輝星が支配下契約「ビビることなく挑戦者の気持ちを忘れずに」 - プロ野球 : 日刊スポーツ https://t.co/ler21sDCtf",https://twitter.com/_nuidayo_/status/1432849649128271872,_nuidayo_,0,2,0
+42,2021-08-31 23:35:49+00:00,"「北海道日本ハムファイターズ」の「井口 和朋」選手を獲得！
+
+プロ野球ゲーム『劇的采配！プロ野球リバーサル』をプレイ！
+https://t.co/UFOZEBEP8d https://t.co/utixjr5h0F",https://twitter.com/4sZqVD4JdhvW2OM/status/1432849638017552384,4sZqVD4JdhvW2OM,0,0,0
+43,2021-08-31 23:35:44+00:00,日本ハム 小笠原道大,https://twitter.com/SNOWMOMO56/status/1432849615326363648,SNOWMOMO56,0,0,0
+44,2021-08-31 23:35:36+00:00,パ・リーグの順位が2012年と真逆になってると聞いたから見てみたけ、どこの年の日ハム2〜4位には負け越しててロッテオリックスセ・リーグボコって優勝してるの面白い（今年のオリックスは西武がお得意様なぐらい） https://t.co/nKJuPs9qwX,https://twitter.com/R_i_k_o_P/status/1432849583785185283,R_i_k_o_P,0,0,1
+45,2021-08-31 23:35:05+00:00,｢皆様を失望させた｣日ハム謝罪 https://t.co/zfPoKNhDCc,https://twitter.com/Infoseeknews/status/1432849451840802816,Infoseeknews,0,0,0
+46,2021-08-31 23:34:54+00:00,"@realF03 うぽぽりたそ@6代目さん、
+おかえりなさい😊
+日本ハムを支えるのはあなたです‼️",https://twitter.com/Emperor9785/status/1432849408891113479,Emperor9785,1,1,0
+47,2021-08-31 23:34:48+00:00,"あとは、単純にアナウンスが遅い。
+@FightersPR #lovefighters https://t.co/ReKYzRafhR",https://twitter.com/mrbaseballwing/status/1432849380432756741,mrbaseballwing,0,0,0
+48,2021-08-31 23:33:08+00:00,"ファンの皆様へ｜北海道日本ハムファイターズ
+https://t.co/FflHn3MyqJ
+
+ここの言い回しがおかしい。動画に差別的発言が入った事への謝罪は違う。
+差別的発言をした選手がいることの謝罪と調査、再発防止だろ。
+決して許されないと言いつつ、これだけだと差別的発言を発信しないための研修って読める。 https://t.co/3V0aoGOgqs",https://twitter.com/mrbaseballwing/status/1432848964781428745,mrbaseballwing,0,1,0
+49,2021-08-31 23:32:07+00:00,オリックス　追いつくも勝ち越され敗れる（2021.8.31　北海道日本ハム戦） https://t.co/uuYFiGvVDI,https://twitter.com/kinta_blog/status/1432848709079941122,kinta_blog,0,0,0
+50,2021-08-31 23:32:04+00:00,データレスキューセンター、データレスキューセンター、ノートPC内蔵SSDのデータ復旧を ご依頼いただいた日本ハム株式会社様によるお客様の声を公開 https://t.co/309SusyM5U,https://twitter.com/Newsrelease_IT/status/1432848692583620613,Newsrelease_IT,0,0,0
+51,2021-08-31 23:31:59+00:00,"大谷翔平 全米が気になる「ジュラルミンケース」の中身…日ハム関係者は「約50万円の低周波治療器」と分析(SmartFLASH)
+#Yahooニュース
+https://t.co/xV5RZYdMbb",https://twitter.com/arufonsu_0109/status/1432848673457594370,arufonsu_0109,0,0,0
+52,2021-08-31 23:31:12+00:00,"【冷徹巨人】日ハムでは“特別扱い”中田翔”・外様選手に厳しい巨人に耐えられるか？
+
+#巨人 #中田翔
+https://t.co/S65pqgf8eQ",https://twitter.com/kTzXQNY0v5xRzSv/status/1432848476195356676,kTzXQNY0v5xRzSv,0,0,0
+53,2021-08-31 23:31:00+00:00,日本ハム　移籍組躍動で３連勝　木村先制打、佐藤が適時二塁打/野球/デイリースポーツ online https://t.co/fUsXpSsIis @Daily_Onlineより,https://twitter.com/Ksuke912/status/1432848427952394242,Ksuke912,0,1,0
+54,2021-08-31 23:30:50+00:00,"いろんな推測おもろい
+冷凍グローブはじめてしりました🎵
+
+大谷翔平 全米が気になる「ジュラルミンケース」の中身…日ハム関係者は「約50万円の低周波治療器」と分析(SmartFLASH)
+#Yahooニュース
+https://t.co/qo2Zhvd32g",https://twitter.com/ankotowasabi/status/1432848386336559105,ankotowasabi,0,0,0
+55,2021-08-31 23:30:30+00:00,"今日は、日ハムと西武応援🔥
+ホークスの次に好きな球団だから、頑張って欲しいよ❕
+(Bクラスが今日勝ってもらわないと困る)",https://twitter.com/sbhawks_yuzu/status/1432848298784673792,sbhawks_yuzu,0,0,0
+56,2021-08-31 23:29:41+00:00,データレスキューセンター、ノートPC内蔵SSDのデータ復旧をご依頼いただいた日本ハム株式会社様によるお客様の声を公開 　   https://t.co/kdOGKaKjkK,https://twitter.com/HimatubuNet/status/1432848093343621125,HimatubuNet,0,0,0
+57,2021-08-31 23:29:38+00:00,"みんな何から何まで興味津々。
+
+大谷翔平 全米が気になる「ジュラルミンケース」の中身…日ハム関係者は「約50万円の低周波治療器」と分析(SmartFLASH)
+#Yahooニュース
+https://t.co/Fipa6TQpXW",https://twitter.com/blueclearsea/status/1432848081159032835,blueclearsea,0,0,0
+58,2021-08-31 23:29:16+00:00,@YahooNewsTopics 日ハムの山本昌を目指しているのかもしれない。,https://twitter.com/fUh2MDYKYwRP8Gj/status/1432847991279214593,fUh2MDYKYwRP8Gj,0,0,0
+59,2021-08-31 23:28:42+00:00,"プロ野球、補強期間終了　トレード7件19人支配下　ロッテ・小窪、ヤクルト・ケリン、日本ハム・宮田獲得― #スポニチ Sponichi Annex #野球 https://t.co/uNPNkMYyGv
+
+#宮田輝星 選手は今日１日に出場選手登録される可能性があります！
+#lovefighters",https://twitter.com/SnFighters/status/1432847848165416963,SnFighters,0,101,18
+60,2021-08-31 23:28:24+00:00,"中田退団「会見開くべきだった」　日ハム球団社長　謝罪文：北海道新聞 どうしん電子版 https://t.co/LH9DO6rnMk
+誰に謝った？",https://twitter.com/Jerry78783497/status/1432847769975148547,Jerry78783497,0,0,0
+61,2021-08-31 23:28:02+00:00,"改めてなんで期間設けるんやろうか。
+プロ野球、補強期間終了　トレード7件19人支配下　ロッテ・小窪、ヤクルト・ケリン、日本ハム・宮田獲得（スポニチアネックス） https://t.co/Mn3JqQrYUK",https://twitter.com/Tyrone44H/status/1432847677604044802,Tyrone44H,0,0,0
+62,2021-08-31 23:27:43+00:00,@furyafurya17 ですね！！！日ハム貯金の開封楽しみにしてます！！！ https://t.co/3bIe5js9AQ,https://twitter.com/mainichihamhoo/status/1432847599883620355,mainichihamhoo,1,1,0
+63,2021-08-31 23:27:22+00:00,日ハム謝ってしまったか,https://twitter.com/nrky_stu/status/1432847512512057348,nrky_stu,1,0,0
+64,2021-08-31 23:27:18+00:00,（日経新聞）【日本ハム3-1オリックス】日本ハムが1分けを挟んで3連勝。1-1の五回に野村の適時二塁打で1点を勝ち越し、七回には木村の適時二塁打で1点を加えた。上沢は10三振を奪い、7回1失点で8勝目。オリックスは継投に失敗し、3連勝を逃した。,https://twitter.com/umibeni154/status/1432847495076352001,umibeni154,0,0,0
+65,2021-08-31 23:26:24+00:00,データレスキューセンター、ノートPC内蔵SSDのデータ復旧をご依頼いただいた日本ハム株式会社様によるお客様の声を公開 https://t.co/IrKuySQQTY,https://twitter.com/prranking/status/1432847267959033856,prranking,0,0,0
+66,2021-08-31 23:23:54+00:00,ファンの皆様へ｜北海道日本ハムファイターズ https://t.co/JhX7Gp0L8Y,https://twitter.com/gloveace/status/1432846638628757510,gloveace,0,0,0
+67,2021-08-31 23:23:31+00:00,オリックス　追いつくも勝ち越され敗れる（2021.8.31　北海道日本ハム戦） https://t.co/uuYFiGNwvg,https://twitter.com/kinta_blog/status/1432846541178347522,kinta_blog,1,0,0
+68,2021-08-31 23:22:51+00:00,日本ハムが日本一になった日本シリーズ2016を見てたら朝になってました、おはようございます,https://twitter.com/FF14_PureKuma/status/1432846375113224194,FF14_PureKuma,0,2,0
+69,2021-08-31 23:21:27+00:00,"えのきどいちろうさん「日ハムが北海道に本拠地を移してファンを増やそうとした時の初心、つまりつまり原点に返れと言いたい」
+
+日ハム　批判受け危機感　暴力・差別　説明の遅れ認める：北海道新聞 どうしん電子版 https://t.co/SjRP2YEA7g",https://twitter.com/teruaki1968/status/1432846020975546378,teruaki1968,1,17,6
+70,2021-08-31 23:21:11+00:00,"データレスキューセンター、ノートPC内蔵SSDのデータ復旧をご依頼いただいた日本ハム株式会社様によるお客様の声を公開
+https://t.co/Fnv6bKi7do",https://twitter.com/miraiz_atp/status/1432845956685385730,miraiz_atp,0,0,0
+71,2021-08-31 23:20:25+00:00,【隠しマイク】日本ハム・栗山監督　智弁和歌山べた褒めに野球部OBの本紙記者タジタジ - スポニチ Sponichi Annex 野球 https://t.co/ibydXUsqoH,https://twitter.com/7kkWDHtW86Zgp7b/status/1432845763877359619,7kkWDHtW86Zgp7b,0,9,0
+72,2021-08-31 23:19:20+00:00,後楽園球場（1937-1987）・・・かつての日本野球のメッカ。読売ジャイアンツ、及び日本ハムファイターズが本拠地としていた。隣接地に東京ドームが建設されたことにより、閉場。,https://twitter.com/bp100p/status/1432845488798126083,bp100p,0,0,0
+73,2021-08-31 23:19:05+00:00,今の日ハム、一周回って岩本が監督やれば良いんちゃうか,https://twitter.com/hiriten/status/1432845429293531137,hiriten,0,0,0
+74,2021-08-31 23:19:01+00:00,"日ハムもだらしない
+なんでホームページ掲載？
+記者会見くらいできるだろうに
+
+中田も逃げてばかり
+男じゃないね
+
+説明なく中田移籍 日ハムが謝罪
+#Yahooニュース
+https://t.co/PJPK5hTdSR",https://twitter.com/zakio5690/status/1432845408749768709,zakio5690,0,12,0
+75,2021-08-31 23:18:51+00:00,日本ハム３連勝ヒーローは「おとめ座のＯ型、木村文紀です」！！西武から移籍コンビ・佐藤も先制打 - サンスポ https://t.co/34PocN5UUY @SANSPOCOMから,https://twitter.com/Ksuke912/status/1432845370531344388,Ksuke912,0,0,0
+76,2021-08-31 23:18:25+00:00,元日ハム中田の暴力事件に対する球団の謝罪文か公表された。でも、知りたいのは処分を不問にした巨人側の考えである。暴力事件では相撲界はかなり厳しい処分を下している。だから、日ハムの下した出場停止処分も妥当だと思う。それはどこの球団でも同じはず。,https://twitter.com/Komayoshi2/status/1432845259281604615,Komayoshi2,0,0,0
+77,2021-08-31 23:17:02+00:00,"セギノール
+ブルーウェーブ、日ハム、楽天で活躍した両打ちの大砲。2004年に44ホーマーを放ち本塁打王を獲得。通算9度の両打席本塁打を達成した。日ハム時代の背番号は5番。彼をボラギノールと呼んだ人は怒らないから出ておいで。https://t.co/V2MrTxyaAF",https://twitter.com/ilove_ogasawara/status/1432844912890769409,ilove_ogasawara,0,0,0
+78,2021-08-31 23:16:27+00:00,日本ハム３連勝ヒーローは「おとめ座のＯ型、木村文紀です」！！西武から移籍コンビ・佐藤も先制打 - サンスポ https://t.co/9AQHZFfE9C @SANSPOCOMより,https://twitter.com/melonpan3840/status/1432844763233861632,melonpan3840,0,1,0
+79,2021-08-31 23:16:25+00:00,日ハムの試合数、おかしい（そこじゃない） https://t.co/2Fzcgem1QD,https://twitter.com/ShironyankoL/status/1432844756275527685,ShironyankoL,0,2,0
+80,2021-08-31 23:16:10+00:00,"大谷翔平 全米が気になる「ジュラルミンケース」の中身…日ハム関係者は「約50万円の低周波治療器」と分析
+https://t.co/fWa1fT0EVb
+「大谷は肩、肘、かかとなどの怪我防止や治療目的で、日ハム時代からトレーナー室にあったショックマスター（圧力波治療器）をよく使っていたんです」",https://twitter.com/okayamaeichan/status/1432844694661201922,okayamaeichan,0,0,0
+81,2021-08-31 23:16:07+00:00,[B!] ファンの皆様へ｜北海道日本ハムファイターズ https://t.co/qfJr4ulJJi,https://twitter.com/acqua_alta/status/1432844679523930116,acqua_alta,0,0,0
+82,2021-08-31 23:16:05+00:00,@p_shino_mmm 日ハム戦はラジオにせぇ！😭😭😭,https://twitter.com/MakeItHot9Snow/status/1432844673500942339,MakeItHot9Snow,1,3,0
+83,2021-08-31 23:15:55+00:00,"球団も対応がまずかったが、本人が移籍前に語るべきだったのかもね。
+
+日本ハム、人種差別発言動画で謝罪文公表　中田翔問題も (朝日新聞デジタル) https://t.co/zkT25iiUnm #linenews",https://twitter.com/tousan_tweet/status/1432844628877725700,tousan_tweet,0,1,0
+84,2021-08-31 23:15:38+00:00,昨日のスタメン大野奨太で、日ハム時代の応援歌が好きだったことを思い出した,https://twitter.com/sank_xx/status/1432844559017336836,sank_xx,0,0,0
+85,2021-08-31 23:15:23+00:00,@mWQwHxuccN2Ww6F おはよう、バカ86君(だめなひと)日ハムファン！,https://twitter.com/Asuka_s_bot/status/1432844496417406984,Asuka_s_bot,0,1,0
+86,2021-08-31 23:14:42+00:00,"遅いよね。刷新が必要。
+
+ファンの皆様へ｜北海道日本ハムファイターズ https://t.co/bo6W7nN1ta",https://twitter.com/sagapaso/status/1432844322861244419,sagapaso,0,0,0
+87,2021-08-31 23:14:29+00:00,"下のヒントは字面を見るたびに元広島と日ハムにいた外国人投手と勘違いしてしまいます(^-^;
+一時広島の海外スカウトをやってた気がしますが、今もやってるんですかね？ https://t.co/QlAQT2X8sk",https://twitter.com/sy_arrow_mage/status/1432844270252150785,sy_arrow_mage,0,3,1
+88,2021-08-31 23:14:11+00:00,@L1KEY_ 陽岱鋼の日本ハム時代でお願いします🤲,https://twitter.com/522685seiyu1127/status/1432844192712060930,522685seiyu1127,2,1,0
+89,2021-08-31 23:14:04+00:00,"【野球】＜日本ハム＞ 球団社長名で〝中田翔問題〟謝罪も「会見しろよ」「ＨＰだけで済ませるのか」納得行かない声...
+
+#野球 #巨人 #中田翔 #日本ハム
+https://t.co/ZfK1FVaipe",https://twitter.com/q292ikvoxlIyzmo/status/1432844165335814144,q292ikvoxlIyzmo,0,0,1
+90,2021-08-31 23:13:53+00:00,"食後にくつろぐレアちゃん
+#猫 #マンチカン #日ハム https://t.co/zSGt62TKN4",https://twitter.com/Laird0308/status/1432844119420719109,Laird0308,1,67,1
+91,2021-08-31 23:13:03+00:00,日本ハム、人種差別発言動画で謝罪文公表　中田翔問題も (朝日新聞デジタル) https://t.co/Qv0pXam13b #linenews,https://twitter.com/alexrikoko/status/1432843909630083072,alexrikoko,0,1,1
+92,2021-08-31 23:12:02+00:00,"日ハムは円陣で差別発言してたんか
+見損なったわ
+プロ球団としてレベルの高いことして欲しいよね",https://twitter.com/uonome0528/status/1432843653488148485,uonome0528,0,0,0
+93,2021-08-31 23:11:48+00:00,日本ハム、人種差別発言動画で謝罪文公表　中田翔問題も (朝日新聞デジタル) https://t.co/B2LATMn0ev #linenews,https://twitter.com/seturibaika/status/1432843592381308928,seturibaika,0,0,0
+94,2021-08-31 23:11:44+00:00,日本ハムがトレード組で3連勝!　木村＆佐藤そろってヒーロー打― スポニチ Sponichi Annex 野球 https://t.co/67H6lyrZMf,https://twitter.com/melonpan3840/status/1432843577478942722,melonpan3840,0,0,1
+95,2021-08-31 23:11:23+00:00,"ファンの皆様へ｜北海道日本ハムファイターズ 
+
+https://t.co/U6i8B6gttq",https://twitter.com/ibleedlionsblue/status/1432843491462160386,ibleedlionsblue,0,0,0
+96,2021-08-31 23:11:13+00:00,"他の誰かが書いた文章に記名だけすればいいから球団社長って楽だよな☺️
+
+中田翔の暴力行為で日本ハム・球団社長が謝罪文「誠に申し訳ありません」(サンケイスポーツ)
+#Yahooニュース
+https://t.co/z9mmfKu2Yk",https://twitter.com/Saorin1524/status/1432843448172773381,Saorin1524,0,0,0
+97,2021-08-31 23:10:22+00:00,日本ハム、人種差別発言動画で謝罪文公表　中田翔問題も (朝日新聞デジタル) https://t.co/t9CM3LbHnQ #linenews,https://twitter.com/nokotachan/status/1432843233193648132,nokotachan,0,0,0
+98,2021-08-31 23:09:44+00:00,大谷翔平 全米が気になる「ジュラルミンケース」の中身…日ハム関係者は「約50万円の低周波治療器」と分析（SmartFLASH） https://t.co/mqf05oQ9lJ,https://twitter.com/Nanasemaru7_46/status/1432843075353604104,Nanasemaru7_46,0,0,0
+99,2021-08-31 23:09:28+00:00,"公の場から逃げて文書だけで謝罪なんて楽な仕事だな。日本ハムってこういう企業体質なのかしら🤔暴行、人種差別、誠意のない謝罪、次は何だろう😂
+
+日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める(スポニチアネックス)
+#Yahooニュース
+https://t.co/qJVAJurviu",https://twitter.com/Saorin1524/status/1432843006692888586,Saorin1524,1,1,0
+100,2021-08-31 23:09:20+00:00,"日本ハム謝罪「“ファイターズの中田翔”機会設けず退団」　円陣動画の差別的発言も認める― #スポニチ Sponichi Annex #野球 https://t.co/jx3albxMD3
+
+#lovefighters",https://twitter.com/SnFighters/status/1432842973662699521,SnFighters,0,56,5
