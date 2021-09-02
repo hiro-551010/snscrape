@@ -16,11 +16,8 @@ def keywords(keyword, since, until):
             "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount
         })
 
-    df = pd.DataFrame(tweets_list, columns=[
-            "tweet_date", "tweet_content", "tweet_url", "tweet_user_name", "tweet_reply_count",
-            "tweet_like_count", "tweet_retweet_count"
-        ])
-
+    df = pd.DataFrame(tweets_list)
+    
     pwd = os.path.join(os.path.dirname(__file__))
     csv_path = f"{pwd}/tweets.csv"
     df["content"] = df["content"].replace('\n', '', regex=True)
