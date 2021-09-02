@@ -4,3 +4,4 @@ local_settings.py
 db.sqlite3
 config/local_settings.py
 staticfiles
+plac
