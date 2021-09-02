@@ -11,10 +11,10 @@ def keywords(keyword, since, until):
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper(f'{keyword} since:{since} until:{until}').get_items()):
         if i>count:
             break
-        tweets_list.append([
-            tweet.date, tweet.content, tweet.url, tweet.user.username, tweet.replyCount,
-            tweet.likeCount, tweet.retweetCount
-            ])
+        tweets_list.append({
+            "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.username,
+            "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount
+        })
 
     df = pd.DataFrame(tweets_list, columns=[
             "tweet_date", "tweet_content", "tweet_url", "tweet_user_name", "tweet_reply_count",
@@ -23,7 +23,7 @@ def keywords(keyword, since, until):
 
     pwd = os.path.join(os.path.dirname(__file__))
     csv_path = f"{pwd}/tweets.csv"
-    df["tweet_content"] = df["tweet_content"].replace('\n', '', regex=True)
+    df["content"] = df["content"].replace('\n', '', regex=True)
     df.to_csv(csv_path)
 
 def main(keyword, since, until):
