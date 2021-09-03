@@ -18,8 +18,6 @@ def keywords(keyword, since, until):
         ])
 
     df = pd.DataFrame(tweets_list, columns=["日付", "内容", "url", "ユーザー名", "リプライ数", "いいね数", "リツイート数"])
-
-    pwd = os.path.join(os.path.dirname(__file__))
     df["内容"] = df["内容"].replace('\n', '', regex=True)
 
     auth = Auth()
