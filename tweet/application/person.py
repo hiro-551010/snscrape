@@ -2,7 +2,6 @@ from json import encoder
 from gspread_dataframe import set_with_dataframe
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
-import os 
 from .to_sh import Auth
 
 tweets_list = []
@@ -26,8 +25,7 @@ def person(username):
     sheet_list = [ws.title for ws in wb.worksheets()]
     if sheet_name in sheet_list:
         wks = wb.worksheet(title=sheet_name)
-        set_with_dataframe(wks, df)
-        
+        set_with_dataframe(wks, df)   
     else:
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)

@@ -1,8 +1,5 @@
-import pandas as pd
-from datetime import datetime
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
-from gspread_dataframe import set_with_dataframe
 import os
 
 class Auth():

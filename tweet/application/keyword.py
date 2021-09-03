@@ -1,6 +1,5 @@
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
-import os
 from .to_sh import Auth
 from gspread_dataframe import set_with_dataframe
 
@@ -27,7 +26,6 @@ def keywords(keyword, since, until):
     if sheet_name in sheet_list:
         wks = wb.worksheet(title=sheet_name)
         set_with_dataframe(wks, df)
-        
     else:
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
