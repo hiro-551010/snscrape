@@ -12,18 +12,17 @@ def person(username):
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:
             break
-        tweets_list.append({
-            "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.username,
-            "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount
-        })
+        tweets_list.append([
+            tweet.date, tweet.content, tweet.url, tweet.user.displayname, tweet.replyCount,
+            tweet.likeCount, tweet.retweetCount,
+        ])
 
-    df = pd.DataFrame(tweets_list)
-    df["date"] = df["date"].replace('')
-    df["content"] = df["content"].replace('\n', '', regex=True)
+    df = pd.DataFrame(tweets_list, columns=["日付", "内容", "url", "ユーザー名", "リプライ数", "いいね数", "リツイート数"])
+    df["内容"] = df["内容"].replace('\n', '', regex=True)
 
     auth = Auth()
     wb = auth.gc.open_by_key(auth.SP_SHEET_KEY)
-    sheet_name = username
+    sheet_name = df["ユーザー名"][0]
     sheet_list = [ws.title for ws in wb.worksheets()]
     if sheet_name in sheet_list:
         wks = wb.worksheet(title=sheet_name)

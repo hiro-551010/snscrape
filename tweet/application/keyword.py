@@ -12,12 +12,12 @@ def keywords(keyword, since, until):
         if i>count:
             break
         tweets_list.append({
-            "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.username,
+            "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.displayname,
             "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount
         })
 
     df = pd.DataFrame(tweets_list)
-    
+
     pwd = os.path.join(os.path.dirname(__file__))
     csv_path = f"{pwd}/tweets.csv"
     df["content"] = df["content"].replace('\n', '', regex=True)
