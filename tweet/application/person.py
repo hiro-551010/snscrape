@@ -3,7 +3,7 @@ from gspread_dataframe import set_with_dataframe
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
 import os 
-from to_sh import Auth
+from .to_sh import Auth
 
 tweets_list = []
 count = 1000
