@@ -31,12 +31,3 @@ def search(request):
             keyword.main(keywords, since, until)
 
     return render(request, "tweet/search.html", context)
-
-def read_csv(request):
-    pwd = os.path.join(os.path.dirname(__file__))
-    df = pd.read_csv(f'{pwd}/application/tweets.csv')
-    df = df['content']
-    content = {
-        "df": df
-    }
-    return render(request, 'tweet/tweet.html', content)

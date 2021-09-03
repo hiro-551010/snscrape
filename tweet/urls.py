@@ -6,5 +6,4 @@ app_name = "twitter"
 urlpatterns = [
     path('', views.index, name="home"),
     path('search/', views.search, name="search"),
-    path('csv/', views.read_csv, name="csv")
 ]

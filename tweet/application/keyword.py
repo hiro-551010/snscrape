@@ -1,7 +1,8 @@
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
 import os
-import asyncio
+from .to_sh import Auth
+from gspread_dataframe import set_with_dataframe
 
 tweets_list1 = []
 tweets_list = []
@@ -11,17 +12,28 @@ def keywords(keyword, since, until):
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper(f'{keyword} since:{since} until:{until}').get_items()):
         if i>count:
             break
-        tweets_list.append({
-            "date": tweet.date, "content": tweet.content, "url": tweet.url, "username": tweet.user.displayname,
-            "reply_count": tweet.replyCount, "like_count": tweet.likeCount, "retweet_count": tweet.retweetCount
-        })
+        tweets_list.append([
+            tweet.date, tweet.content, tweet.url, tweet.user.displayname, tweet.replyCount,
+            tweet.likeCount, tweet.retweetCount,
+        ])
 
-    df = pd.DataFrame(tweets_list)
+    df = pd.DataFrame(tweets_list, columns=["日付", "内容", "url", "ユーザー名", "リプライ数", "いいね数", "リツイート数"])
 
     pwd = os.path.join(os.path.dirname(__file__))
-    csv_path = f"{pwd}/tweets.csv"
-    df["content"] = df["content"].replace('\n', '', regex=True)
-    df.to_csv(csv_path)
+    df["内容"] = df["内容"].replace('\n', '', regex=True)
+
+    auth = Auth()
+    wb = auth.gc.open_by_key(auth.SP_SHEET_KEY)
+    sheet_name = f"k.{keyword}"
+    sheet_list = [ws.title for ws in wb.worksheets()]
+    if sheet_name in sheet_list:
+        wks = wb.worksheet(title=sheet_name)
+        set_with_dataframe(wks, df)
+        
+    else:
+        wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
+        set_with_dataframe(wks, df)
+
 
 def main(keyword, since, until):
     keywords(keyword, since, until)

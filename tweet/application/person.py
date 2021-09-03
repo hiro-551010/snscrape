@@ -32,11 +32,6 @@ def person(username):
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
 
-    pwd = os.path.join(os.path.dirname(__file__))
-    csv_path = f'{pwd}/tweets.csv'
-    df.to_csv(csv_path)
-
-
 def main(username):
     person(username)
 
