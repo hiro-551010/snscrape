@@ -7,6 +7,7 @@ from .to_sh import Auth
 tweets_list = []
 count = 1000
 
+
 def person(username):
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:
@@ -29,6 +30,8 @@ def person(username):
     else:
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
+
+    df = pd.DataFrame()
 
 def main(username):
     person(username)
