@@ -8,6 +8,7 @@ from .to_sh import Auth
 def person(username):
     tweets_list = []
     count = 1000
+    
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:
             break

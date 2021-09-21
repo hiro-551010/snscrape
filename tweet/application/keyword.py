@@ -3,11 +3,10 @@ import snscrape.modules.twitter as sntwitter
 from .to_sh import Auth
 from gspread_dataframe import set_with_dataframe
 
-tweets_list1 = []
-tweets_list = []
-count = 1000
-
 def keywords(keyword, since, until):
+    tweets_list = []
+    count = 1000
+
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper(f'{keyword} since:{since} until:{until}').get_items()):
         if i>count:
             break
