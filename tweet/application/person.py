@@ -33,8 +33,12 @@ def person(username):
         set_with_dataframe(wks, df)
 
 def main(username):
-    start_time = time.perf_counter()
+    start_p_time = time.perf_counter()
+    start_r_time = time.process_time()
     person(username)
-    end_time = time.perf_counter()
-    print(end_time - start_time)
+    end_r_time = time.process_time()
+    end_p_time = time.perf_counter()
+    print("perf_counter", end_p_time - start_p_time)
+    print("process_counter", end_r_time - start_r_time)
+    
 
