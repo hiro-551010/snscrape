@@ -3,11 +3,12 @@ from gspread_dataframe import set_with_dataframe
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
 from .to_sh import Auth
+import time
 
 
 def person(username):
     tweets_list = []
-    count = 300
+    count = 1000
     
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:
@@ -32,5 +33,8 @@ def person(username):
         set_with_dataframe(wks, df)
 
 def main(username):
+    start_time = time.perf_counter()
     person(username)
+    end_time = time.perf_counter()
+    print(end_time - start_time)
 
