@@ -8,7 +8,7 @@ import time
 
 def person(username):
     tweets_list = []
-    count = 300
+    count = 100
     
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:

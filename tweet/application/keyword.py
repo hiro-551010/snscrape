@@ -5,7 +5,7 @@ from gspread_dataframe import set_with_dataframe
 
 def keywords(keyword, since, until):
     tweets_list = []
-    count = 200
+    count = 100
 
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper(f'{keyword} since:{since} until:{until}').get_items()):
         if i>count:
