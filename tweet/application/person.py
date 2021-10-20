@@ -7,7 +7,7 @@ from .to_sh import Auth
 
 def person(username):
     tweets_list = []
-    count = 200
+    count = 300
     
     for i,tweet in enumerate(sntwitter.TwitterUserScraper(username, False).get_items()):
         if i>count:
