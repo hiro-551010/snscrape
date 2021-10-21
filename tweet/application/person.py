@@ -26,13 +26,11 @@ def person(username):
     sheet_name = df["ユーザー名"][0]
     sheet_list = [ws.title for ws in wb.worksheets()]
     if sheet_name in sheet_list:
-        print("if")
-        df.to_csv("./tweets.csv", mode="w")
+        print(df)
         wks = wb.worksheet(title=sheet_name)
         set_with_dataframe(wks, df)   
     else:
-        print("else")
-        df.to_csv("./tweets.csv", mode="w")
+        print(df)
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
 
