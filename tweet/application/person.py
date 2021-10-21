@@ -3,7 +3,7 @@ from gspread_dataframe import set_with_dataframe
 import pandas as pd
 import snscrape.modules.twitter as sntwitter
 from .to_sh import Auth
-import time
+
 
 
 def person(username):
@@ -29,16 +29,11 @@ def person(username):
         wks = wb.worksheet(title=sheet_name)
         set_with_dataframe(wks, df)   
     else:
+        df.to_csv("tweets.csv")
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
 
 def main(username):
-    start_p_time = time.perf_counter()
-    start_r_time = time.process_time()
     person(username)
-    end_r_time = time.process_time()
-    end_p_time = time.perf_counter()
-    print("perf_counter", end_p_time - start_p_time)
-    print("process_counter", end_r_time - start_r_time)
     
 
