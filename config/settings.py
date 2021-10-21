@@ -16,7 +16,7 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['twitter-django-scraping-2.herokuapp.com',"*"]
+ALLOWED_HOSTS = ['twitter-django-scraping-2.herokuapp.com', '0.0.0.0', "*"]
 
 # Application definition
 
