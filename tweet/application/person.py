@@ -29,7 +29,7 @@ def person(username):
         wks = wb.worksheet(title=sheet_name)
         set_with_dataframe(wks, df)   
     else:
-        df.to_csv("tweets.csv")
+        df.to_csv("./tweets.csv", mode="w")
         wks = wb.add_worksheet(title=sheet_name, rows=30, cols=100)
         set_with_dataframe(wks, df)
 
